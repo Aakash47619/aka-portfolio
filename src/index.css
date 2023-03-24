@@ -1,4 +1,7 @@
 body {
+  
+  animation:changeBg 10s infinite;
+  
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -7,6 +10,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@keyframes changeBg{
+  0%{
+    background-color: rgb(205, 175, 233);
+  }
+  25%{
+    background-color: rgb(120, 233, 189);
+  }
+  50%{
+    background-color: rgb(231, 230, 161);
+  }
+  75%{
+    background-color: aqua;
+  }
+  100%{
+    background-color: azure;
+  }
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

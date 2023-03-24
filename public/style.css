@@ -1,0 +1,111 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(-45deg, #8d1111, #c27d15,#d8cb56,#0c6417);
+    background-size: 400%, 400%;  
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+  }
+    @keyframes gradient {
+      0%{
+        background-position:0% 50%;
+      }
+      50%{
+        background-position:100% 50%;
+      }
+      100%{
+        background: position 0% 50%;
+      }
+      
+    }
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: rgb(70, 75, 60);
+	box-shadow: 0 0 10px rgba(107, 86, 86, 0.1);
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+	color: #c49354;
+}
+
+.game {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.player,
+.computer {
+	flex-basis: 45%;
+	text-align: center;
+	color: rgb(19, 180, 40);
+}
+
+.options {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.comp-option {
+	width: 100px;
+	height: 100px;
+	background-color: rgb(172, 174, 175);
+	margin: 10px;
+	border-radius: 50%;
+	display:none;
+}
+
+#result {
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+#result.win {
+	color: rgb(87, 230, 87);
+}
+
+#result.lose {
+	color: red;
+}
+
+#result.tie {
+	color: rgb(117, 195, 231);
+}
+
+.btn {
+	width: 100px;
+	margin-left: 33px;
+	margin-top: 30px;
+	margin-bottom: -15px;
+	padding: 1em 1em;
+	font-size: 12px;
+	letter-spacing: 2px;
+	font-weight: 500;
+	color: #000;
+	background-color: #fff;
+	border: none;
+	border-radius: 45px;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	outline: none;
+  }
+  
+  .btn:hover {
+	background-color: #c49354;
+	box-shadow: 6px 6px 0px #d46b14,
+			   -3px -3px 10px rgb(248, 152, 26);
+	color: #fff;
+	transform: translateX(-0.5em) translateY(-0.5em);
+  }
