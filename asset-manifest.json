@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/aka-portfolio/static/css/main.8b170f0a.css",
+    "main.js": "/aka-portfolio/static/js/main.1b46cfab.js",
+    "static/js/787.28cb0dcd.chunk.js": "/aka-portfolio/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/aka-portfolio/index.html",
+    "main.8b170f0a.css.map": "/aka-portfolio/static/css/main.8b170f0a.css.map",
+    "main.1b46cfab.js.map": "/aka-portfolio/static/js/main.1b46cfab.js.map",
+    "787.28cb0dcd.chunk.js.map": "/aka-portfolio/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b170f0a.css",
+    "static/js/main.1b46cfab.js"
+  ]
+}
